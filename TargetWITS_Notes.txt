@@ -1,0 +1,5 @@
+git clone			// pulls entire repository to local space
+git add .			// saves all changes locally
+git commit -m ""	// updates locally (need to do add first)
+git push			// pushes the changes to github
+git pull 			// pull changes from other users
