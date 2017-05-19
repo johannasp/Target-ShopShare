@@ -46,10 +46,6 @@
   </div>
 </nav>
 
-<?php
-  echo 'hello';
-?>
-
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
