@@ -73,7 +73,7 @@ echo "
                 </div>
             </div>
             <div class=\"col-sm-5\">
-                $itemName
+                <h2>$itemName</h2>
             </div>
         </div>
         ";
