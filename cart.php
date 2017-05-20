@@ -65,8 +65,8 @@ echo "
             <div class=\"row\">
             <div class=\"panel panel-success\">
             <div class=\"panel-body\">
-                <div class=\"col-sm-2\">  
-                    <img src=\"$itemPic\" class=\"img-responsive\" style=\"width:100%\" alt=\"Image\"> 
+                <div class=\"col-sm-2\">
+                    <img src=\"$itemPic\" class=\"img-responsive\" style=\"width:100%\" alt=\"Image\">
                 </div>
                 <div class=\"col-sm-5\">
                     <span class=\"item-name\">$itemName</span>
