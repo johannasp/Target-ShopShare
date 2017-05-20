@@ -41,18 +41,18 @@ echo "
           </ul>
         </div>
       </div>
-
       
-        <div class=\"container text-center\">
-          <h1>
-            <div class=\"title-target\">Cart</div>
-          </h1>
-        </div>
-    
+        
 
     </nav>
   ";
 ?>
+
+<div class=\"container text-center\">
+      <h1>
+        <div class=\"title-target\">Cart</div>
+      </h1>
+</div>
 
 <div class="container">
   <div class="row">
@@ -60,26 +60,27 @@ echo "
     <?php
       $json_data = file_get_contents("data.json");
       $json = json_decode($json_data);
-      //echo var_dump($json);
 
       foreach ($json as $object) {
         $itemName = $object->name;
         $itemPrice = $object->price;
         $itemPic = $object->pic;
         echo "
-        <div class=\"col-sm-4\">
-          <div class=\"panel panel-success\">
-            <div class=\"panel-body\"><img src=\"$itemPic\" class=\"img-responsive\" style=\"width:100%\" alt=\"Image\"></div>
-            <div class=\"panel-footer\">
-              <input type=\"submit\" name=\"addCartButton\" class=\"add-button\" value=\"add to cart\">
-              <div class=\"panel-footer-price\">$itemPrice</div>
-              <div class=\"panel-footer-name\">$itemName</div>
+        <div class=\"row\">
+            <div class=\"col-sm-3\">
+              <div class=\"panel panel-success\">
+                <div class=\"panel-body\"><img src=\"$itemPic\" class=\"img-responsive\" style=\"width:100%\" alt=\"Image\"></div>
+                </div>
             </div>
-          </div>
+            <div class=\"col-sm-4\">
+                <div class=\"panel-body\">$itemName</div>
+            </div>
         </div>
         ";
       }
     ?>
+
+    <input type="submit" name="checkoutButton" class="add-button" value="I'm ready to check out">
 
   </div>
 </div><br>
@@ -87,7 +88,7 @@ echo "
 <br><br>
 
 <footer class="container-fluid text-center">
-  <p>Online Store Copyright</p>
+  <p>Target ShopShare</p>
   <form class="form-inline">Get deals:
     <input type="email" class="form-control" size="50" placeholder="Email Address">
     <button type="button" class="btn btn-danger">Sign Up</button>
