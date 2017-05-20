@@ -52,12 +52,7 @@ echo "
   ";
 ?>
 
-
-
-<div class="container">
  <div class="col-sm-9">
-  <div class="row">
-
     <?php
       $json_data = file_get_contents("data.json");
       $json = json_decode($json_data);
@@ -67,6 +62,7 @@ echo "
         $itemPrice = $object->price;
         $itemPic = $object->pic;
         echo "
+            <div class="row">
             <div class=\"panel panel-success\">
             <div class=\"panel-body\">
                 <div class=\"col-sm-2\">  
@@ -86,7 +82,6 @@ echo "
 
     ?>
 
-  </div>
   </div>
       <div class="col-sm-3">
       <div class="container">
