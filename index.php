@@ -28,7 +28,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand" href="#"><img src="logo.png" alt="Target logo" class="navbar-logo"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -49,40 +49,6 @@
 <div class="container">
   <div class="row">
 
-    <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">
-          <div class="panel-footer-price">$30</div>
-          <div class="panel-footer-name">Item Name</div>
-          Buy 50 mobiles and get a gift card
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel panel-danger">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">
-          <div class="panel-footer-price">$30</div>
-          <div class="panel-footer-name">Item Name</div>
-          Buy 50 mobiles and get a gift card
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel panel-success">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">
-          <div class="panel-footer-price">$30</div>
-          <div class="panel-footer-name">Item Name</div>
-          Buy 50 mobiles and get a gift card
-        </div>
-      </div>
-    </div>
-
     <?php
       $json_data = file_get_contents("data.json");
       $json = json_decode($json_data);
@@ -95,12 +61,10 @@
         echo "
         <div class=\"col-sm-4\">
           <div class=\"panel panel-success\">
-            <div class=\"panel-heading\">ITEM</div>
             <div class=\"panel-body\"><img src=\"$itemPic\" class=\"img-responsive\" style=\"width:100%\" alt=\"Image\"></div>
             <div class=\"panel-footer\">
               <div class=\"panel-footer-price\">$itemPrice</div>
               <div class=\"panel-footer-name\">$itemName</div>
-              Buy 50 mobiles and get a gift card
             </div>
           </div>
         </div>
