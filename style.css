@@ -67,3 +67,8 @@ footer {
 	border: none;
 	border-radius: 4px;
 }
+
+h2 {
+  font-size: 15px;
+  font-style: bold;
+}
