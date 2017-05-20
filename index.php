@@ -1,3 +1,9 @@
+<?php
+  session_start();
+
+  $cart = array();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +14,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 
+  <link rel="icon" type="image/png" href="logo.png">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -17,6 +25,11 @@
 
 <?php include 'nav.php'?>
 
+<?php
+  if(isset($_POST['addCartButton'])) {
+    
+  }
+?>
 
 <div class="container">
   <div class="row">
@@ -35,7 +48,7 @@
           <div class=\"panel panel-success\">
             <div class=\"panel-body\"><img src=\"$itemPic\" class=\"img-responsive\" style=\"width:100%\" alt=\"Image\"></div>
             <div class=\"panel-footer\">
-              <input type=\"submit\" class=\"add-button\" value=\"add to cart\">
+              <input type=\"submit\" name=\"addCartButton\" class=\"add-button\" value=\"add to cart\">
               <div class=\"panel-footer-price\">$itemPrice</div>
               <div class=\"panel-footer-name\">$itemName</div>
             </div>
