@@ -55,6 +55,7 @@ echo "
 
 
 <div class="container">
+ <div class="col-sm-9">
   <div class="row">
 
     <?php
@@ -66,7 +67,6 @@ echo "
         $itemPrice = $object->price;
         $itemPic = $object->pic;
         echo "
-        <div class=\"row\">
             <div class=\"panel panel-success\">
             <div class=\"panel-body\">
                 <div class=\"col-sm-2\">  
@@ -79,14 +79,19 @@ echo "
                     <div class=\"price\">$itemPrice</div>
                 </div>
             </div>
-        </div>
+            </div>
+            </div>
         ";
       }
-      /*echo "
-      <div class=\"col-sm-3\">
-        <h1>Order Summary</h1>
-      </div
-      ";*/
+      echo "
+          </div>
+          </div>
+          <div class=\"container\">
+              <div class=\"col-sm-3\">
+                <h1>Order Summary</h1>
+              </div>
+          </div>
+      ";
     ?>
 
     <input type="submit" name="checkoutButton" class="add-button" value="I'm ready to check out">
