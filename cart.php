@@ -15,6 +15,7 @@
 </head>
 <body>
 
+
 <?php 
 echo "
     <nav class=\"navbar navbar-inverse\">
@@ -52,6 +53,9 @@ echo "
   ";
 ?>
 
+<div class = "col-sm-6"></div>
+<div class = "col-sm-4"> <input type="submit" name="checkoutButton" class="checkout-button" value="I'm ready to check out"> </div>
+
  <div class="col-sm-9">
     <?php
       $json_data = file_get_contents("data.json");
@@ -84,22 +88,18 @@ echo "
 
   </div>
     <div class="col-sm-3">
-      <div class="container">
-        <input type="submit" name="checkoutButton" class="checkout-button" value="I'm ready to check out">
+      <div class="side-bar">
+        
         <h1>Order Summary</h1>
+        <br><h2>Subtotal:</h2>
+        <br><h2>Delivery:</h2><h3>free</h3>
+        <br><h2>Estimated Tax:</h2><h4>$0.00</h4>
+        <br><h2>Total:</h2>
       </div>
     </div>
 
-
 <br>
 <br><br>
-<footer class="container-fluid text-center">
-  <p>Target ShopShare</p>
-  <form class="form-inline">Get deals:
-    <input type="email" class="form-control" size="50" placeholder="Email Address">
-    <button type="button" class="btn btn-danger">Sign Up</button>
-  </form>
-</footer>
 
 </body>
 </html>
