@@ -62,7 +62,7 @@ echo "
         $itemPrice = $object->price;
         $itemPic = $object->pic;
         echo "
-            <div class="row">
+            <div class=\"row\">
             <div class=\"panel panel-success\">
             <div class=\"panel-body\">
                 <div class=\"col-sm-2\">  
