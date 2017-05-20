@@ -67,16 +67,17 @@ echo "
         $itemPic = $object->pic;
         echo "
         <div class=\"row\">
-            <div class=\"col-sm-2\">
-              <div class=\"panel panel-success\">
-                <div class=\"panel-body\"><img src=\"$itemPic\" class=\"img-responsive\" style=\"width:100%\" alt=\"Image\"></div>
+            <div class=\"panel panel-success\">
+            <div class=\"panel-body\">
+                <div class=\"col-sm-2\">  
+                <img src=\"$itemPic\" class=\"img-responsive\" style=\"width:100%\" alt=\"Image\"></div>  
                 </div>
-            </div>
-            <div class=\"col-sm-5\">
-                <div class=item-name>$itemName</item-name>
-            </div>
-            <div class=\"col-sm-2\">
-                <div class=price>$itemPrice</div>
+                <div class=\"col-sm-5\">
+                    <div class=item-name>$itemName</item-name>
+                </div>
+                <div class=\"col-sm-2\">
+                    <div class=price>$itemPrice</div>
+                </div>
             </div>
         </div>
         ";
