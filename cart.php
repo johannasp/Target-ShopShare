@@ -72,8 +72,8 @@ echo "
                 <div class=\"panel-body\"><img src=\"$itemPic\" class=\"img-responsive\" style=\"width:100%\" alt=\"Image\"></div>
                 </div>
             </div>
-            <div class=\"col-sm-4\">
-                <div class=\"panel-body\">$itemName</div>
+            <div class=\"col-sm-5\">
+                $itemName
             </div>
         </div>
         ";
