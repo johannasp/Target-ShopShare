@@ -8,11 +8,11 @@
             <span class=\"icon-bar\"></span>
             <span class=\"icon-bar\"></span>
           </button>
-          <a class=\"navbar-brand\" href=\"index.php"><img src=\"logo.png\" alt=\"Target logo\" class=\"navbar-logo\"></a>
+          <a class=\"navbar-brand\" href=\"index.php\"><img src=\"logo.png\" alt=\"Target logo\" class=\"navbar-logo\"></a>
         </div>
         <div class=\"collapse navbar-collapse\" id=\"myNavbar\">
           <ul class=\"nav navbar-nav\" id=\"navbar\">
-            <li><a href=\"index.php">home</a></li>
+            <li><a href=\"index.php\">home</a></li>
             <li><a href=\"#\">products</a></li>
             <li><a href=\"#\">deals</a></li>
             <li><a href=\"#\">stores</a></li>
