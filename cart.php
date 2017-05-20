@@ -41,18 +41,18 @@ echo "
           </ul>
         </div>
       </div>
-      
-        
+
+    <div class=\"container text-center\">
+          <h1>
+            <div class=\"title-target\">Cart</div>
+          </h1>
+    </div>
 
     </nav>
   ";
 ?>
 
-<div class=\"container text-center\">
-      <h1>
-        <div class=\"title-target\">Cart</div>
-      </h1>
-</div>
+
 
 <div class="container">
   <div class="row">
@@ -67,7 +67,7 @@ echo "
         $itemPic = $object->pic;
         echo "
         <div class=\"row\">
-            <div class=\"col-sm-3\">
+            <div class=\"col-sm-2\">
               <div class=\"panel panel-success\">
                 <div class=\"panel-body\"><img src=\"$itemPic\" class=\"img-responsive\" style=\"width:100%\" alt=\"Image\"></div>
                 </div>
