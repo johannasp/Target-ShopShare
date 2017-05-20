@@ -1,9 +1,3 @@
-<?php
-  session_start();
-
-  $cart = array();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,18 +12,13 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="functions.js"></script>
 </head>
 <body>
 
 
 
 <?php include 'nav.php'?>
-
-<?php
-  if(isset($_POST['addCartButton'])) {
-    
-  }
-?>
 
 <div class="container">
   <div class="row">
@@ -40,6 +29,7 @@
       //echo var_dump($json);
 
       foreach ($json as $object) {
+        $itemNum = $object->item_num;
         $itemName = $object->name;
         $itemPrice = $object->price;
         $itemPic = $object->pic;
@@ -48,8 +38,12 @@
           <div class=\"panel panel-success\">
             <div class=\"panel-body\"><img src=\"$itemPic\" class=\"img-responsive\" style=\"width:100%\" alt=\"Image\"></div>
             <div class=\"panel-footer\">
-              <input type=\"submit\" name=\"addCartButton\" class=\"add-button\" value=\"add to cart\">
-              <div class=\"panel-footer-price\">$itemPrice</div>
+
+              <form method=\"POST\">
+                <input type=\"button\" onclick=\"return getData($itemNum)\" class=\"add-button\" value=\"add to cart\">
+              </form>
+
+              <div class=\"panel-footer-price\">\$$itemPrice</div>
               <div class=\"panel-footer-name\">$itemName</div>
             </div>
           </div>
