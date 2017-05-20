@@ -83,14 +83,15 @@ echo "
     ?>
 
   </div>
-      <div class="col-sm-3">
+    <div class="col-sm-3">
       <div class="container">
+        <input type="submit" name="checkoutButton" class="checkout-button" value="I'm ready to check out">
         <h1>Order Summary</h1>
       </div>
-  </div>
+    </div>
 
 
-    <input type="submit" name="checkoutButton" class="add-button" value="I'm ready to check out">
+    
 
   </div>
 </div><br>

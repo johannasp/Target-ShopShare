@@ -78,3 +78,15 @@ footer {
   color: red;
   text-align: center;
 }
+
+.checkout-button {
+  padding-top: 3px;
+  padding-bottom: 6px;
+  background-color: #c10000;
+  color: white;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
