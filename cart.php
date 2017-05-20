@@ -91,13 +91,8 @@ echo "
     </div>
 
 
-    
-
-  </div>
-</div><br>
-
+<br>
 <br><br>
-
 <footer class="container-fluid text-center">
   <p>Target ShopShare</p>
   <form class="form-inline">Get deals:
