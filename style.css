@@ -2,6 +2,25 @@
 .navbar {
   margin-bottom: 50px;
   border-radius: 0;
+  background-color: white;
+}
+
+#navbar li a {
+  color: #c10000;
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 110%;
+}
+
+#navbar li a:hover {
+  color: inherit;
+}
+
+#navbar-right{
+  color: #c10000;
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 110%;
 }
 
 /* Remove the jumbotron's default bottom margin */
@@ -17,11 +36,34 @@ footer {
 
 .panel-footer-price {
   font-size: 20px;
-  color: red;
+  color: #c10000;
   font-weight: bold;
 }
 
 .navbar-logo{
-  width: auto;
-  height: auto;
+  width: 20px;
+  height: 20px;
+}
+
+.title-target {
+  display: inline;
+  color: #c10000;
+  font-size: 130%;
+  font-family: "Helvetica Neue";
+}
+
+.title-subtitle {
+  display: inline;
+  font-size: 115%;
+  font-family: "Helvetica Neue";
+}
+
+.add-button {
+  padding-top: 2px;
+	padding-bottom: 5px;
+	background-color: #c10000;
+	color: white;
+	display: inline-block;
+	border: none;
+	border-radius: 4px;
 }
