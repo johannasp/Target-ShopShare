@@ -53,10 +53,7 @@ echo "
   ";
 ?>
 
-<div class = "col-sm-6"></div>
-<div class = "col-sm-4"> <input type="submit" name="checkoutButton" class="checkout-button" value="I'm ready to check out"> </div>
-
- <div class="col-sm-9">
+ <div class="col-sm-8">
     <?php
       $json_data = file_get_contents("data.json");
       $json = json_decode($json_data);
@@ -69,13 +66,13 @@ echo "
             <div class=\"row\">
             <div class=\"panel panel-success\">
             <div class=\"panel-body\">
-                <div class=\"col-sm-2\">  
-                    <img src=\"$itemPic\" class=\"img-responsive\" style=\"width:100%\" alt=\"Image\"> 
+                <div class=\"col-sm-3\">  
+                    <img src=\"$itemPic\" class=\"img-responsive\" style=\"width:90%\" alt=\"Image\"> 
                 </div>
-                <div class=\"col-sm-5\">
+                <div class=\"col-sm-8\">
                     <span class=\"item-name\">$itemName</span>
                 </div>
-                <div class=\"col-sm-2\">
+                <div class=\"col-sm-1\">
                     <span class=\"price\">$itemPrice</span>
                 </div>
             </div>
@@ -87,14 +84,16 @@ echo "
     ?>
 
   </div>
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <div class="side-bar">
-        
         <h1>Order Summary</h1>
         <br><h2>Subtotal:</h2>
         <br><h2>Delivery:</h2><h3>free</h3>
         <br><h2>Estimated Tax:</h2><h4>$0.00</h4>
         <br><h2>Total:</h2>
+        <br>
+        <div class="col-sm-2"> </div>
+        <div class="col-sm-8"><input type="submit" name="checkoutButton" class="checkout-button" value="I'm ready to check out"></div>
       </div>
     </div>
 
