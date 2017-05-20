@@ -70,10 +70,10 @@ echo "
             <div class=\"panel panel-success\">
             <div class=\"panel-body\">
                 <div class=\"col-sm-2\">  
-                <img src=\"$itemPic\" class=\"img-responsive\" style=\"width:100%\" alt=\"Image\"></div>  
+                    <img src=\"$itemPic\" class=\"img-responsive\" style=\"width:100%\" alt=\"Image\"> 
                 </div>
                 <div class=\"col-sm-5\">
-                    <div class=item-name>$itemName</item-name>
+                    <div class=item-name>$itemName</div>
                 </div>
                 <div class=\"col-sm-2\">
                     <div class=price>$itemPrice</div>
@@ -82,11 +82,11 @@ echo "
         </div>
         ";
       }
-      echo "
+      /*echo "
       <div class=\"col-sm-3\">
         <h1>Order Summary</h1>
       </div
-      ";
+      ";*/
     ?>
 
     <input type="submit" name="checkoutButton" class="add-button" value="I'm ready to check out">
