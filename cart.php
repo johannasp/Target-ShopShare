@@ -73,10 +73,10 @@ echo "
                     <img src=\"$itemPic\" class=\"img-responsive\" style=\"width:100%\" alt=\"Image\"> 
                 </div>
                 <div class=\"col-sm-5\">
-                    <div class=item-name>$itemName</div>
+                    <div class=\"item-name\">$itemName</div>
                 </div>
                 <div class=\"col-sm-2\">
-                    <div class=price>$itemPrice</div>
+                    <div class=\"price\">$itemPrice</div>
                 </div>
             </div>
         </div>
