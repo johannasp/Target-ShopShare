@@ -83,16 +83,17 @@ echo "
             </div>
         ";
       }
-      echo "
-          </div>
-          </div>
-          <div class=\"container\">
-              <div class=\"col-sm-3\">
-                <h1>Order Summary</h1>
-              </div>
-          </div>
-      ";
+
     ?>
+
+  </div>
+  </div>
+      <div class="col-sm-3">
+      <div class="container">
+        <h1>Order Summary</h1>
+      </div>
+  </div>
+
 
     <input type="submit" name="checkoutButton" class="add-button" value="I'm ready to check out">
 
