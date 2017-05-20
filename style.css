@@ -68,7 +68,13 @@ footer {
 	border-radius: 4px;
 }
 
-h2 {
-  font-size: 15px;
+.item-name {
+  font-size: 14px;
   font-style: bold;
+}
+
+.price {
+  font-size: 15px;
+  color: red;
+  text-align: center;
 }

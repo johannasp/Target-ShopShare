@@ -73,11 +73,19 @@ echo "
                 </div>
             </div>
             <div class=\"col-sm-5\">
-                <h2>$itemName</h2>
+                <div class=item-name>$itemName</item-name>
+            </div>
+            <div class=\"col-sm-2\">
+                <div class=price>$itemPrice</div>
             </div>
         </div>
         ";
       }
+      echo "
+      <div class=\"col-sm-3\">
+        <h1>Order Summary</h1>
+      </div
+      ";
     ?>
 
     <input type="submit" name="checkoutButton" class="add-button" value="I'm ready to check out">
