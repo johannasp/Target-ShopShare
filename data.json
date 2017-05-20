@@ -22,9 +22,9 @@
 
     {
         "item_num": "3",
-        "name": "Apple® EarPods with Remote and Mic",
-        "price": "29.99",
-        "pic": "https://target.scene7.com/is/image/Target/14213685?wid=2000&qlt=70&fmt=pjpeg"
+        "name": "Aveeno® Daily Moisturizing Lotion For Dry Skin - 18 fl oz",
+        "price": "8.99",
+        "pic": "https://target.scene7.com/is/image/Target/10801059?wid=3000&qlt=70&fmt=pjpeg"
     },
 
     {
@@ -36,20 +36,13 @@
 
     {
         "item_num": "5",
-        "name": "CamelBak Eddy Water Bottle 1L",
-        "price": "12.79",
-        "pic": "https://target.scene7.com/is/image/Target/16741229?wid=2000&qlt=70&fmt=pjpeg"
-    },
-
-    {
-        "item_num": "6",
-        "name": "BAND-AID Brand Value Pack 120ct™",
+        "name": "Johnson & Johnson BAND-AID Brand Value Pack 120ct™",
         "price": "8.89",
         "pic": "https://target.scene7.com/is/image/Target/14768686?wid=2000&qlt=70&fmt=pjpeg"
     },
 
     {
-        "item_num": "7",
+        "item_num": "6",
         "name": "Neutrogena® Makeup Remover Cleansing Towelettes Refill Pack - 2pk",
         "price": "9.29",
         "pic": "https://target.scene7.com/is/image/Target/16600124?wid=2000&qlt=70&fmt=pjpeg"
